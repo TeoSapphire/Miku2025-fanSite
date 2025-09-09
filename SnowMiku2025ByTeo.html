@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SnowMikuStyle.css">
+    <link rel="icon" content="image/x-icon" href="SnowMikuByTeo/Icon/SnowMikuIcon.png">
+    <title>Snow Miku 2025</title>
+  </head>
+
+  <body>
+
+    <header id="header">
+     <div id="effects">
+      <a class="home-link" href="http://127.0.0.1:5500/SnowMiku2025ByTeo.html">
+        <img src ="Img/Nav-Img-SnowMiku2025.png" id="header-img" alt="SnowMikuLogo">
+      </a>
+     </div>
+     <div id="nav-linkFix"></div>
+      <nav id="nav-bar">
+        <div id="nav-linkFix">
+          <a class="nav-link" href="#Info">Info</a>
+          <a class="nav-link" href="#Event">Event</a>
+          <a class="nav-link" href="#Ticket">Ticket</a>
+        </div>
+      </nav>
+    </header>
+    <br><br><br>
+    
+    <h1>Snow Miku 2025 Event</h1>
+      
+    <br><br>
+
+    <section id="Info">
+      <h2>Info</h2>
+      <div class="section-pregulation">
+        <p>Every year in Hokkaidō, in collaboration with JR Tower (Sapporo), 
+            the <strong>Snow Miku</strong> event takes place. 
+            This year it's time for <strong>Snow Miku 2025</strong>!
+        </p>
+      </div>
+
+      <br><br>
+
+      <div class="slider">
+         <div class="slides">
+           <img class="slide" src="Img/SnowMiku.jpg" alt="SnowMiku #1">
+           <img class="slide" src="Img/SnowMiku2025.jpg" alt="SnowMiku #2">
+           <img class="slide" src="Img/SnowMiku2024.jpg" alt="SnowMiku #3">
+           <img class="slide" src="Img/SnowMiku2023.jpg" alt="SnowMiku #4">
+           <img class="slide" src="Img/SnowMiku2022.jpg" alt="SnowMiku #5">
+         </div>
+         <button class="prev" onclick="lastSlide()">&#10094;</button> 
+         <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </section>
+
+    <br>
+
+    <section id="Event">
+      <h2>Event</h2>
+      <div class="section-pregulation">
+        <p>The Snow Miku 2025 event will be held at <strong>JR Tower</strong>
+            and <strong>Odori Park</strong> in Sapporo.
+            The program includes music performances, snow-themed shows, 
+            and the chance to purchase exclusive limited-edition goods. 
+            There will also be exhibitions, themed areas, and special booths dedicated to Snow Miku.
+            For more information, visit the official website:
+            <a href="https://snowmiku.com/" target="_blank" id="Link" referrerpolicy="no-referrer">snowmiku.com</a>
+         </p>
+        <ul>
+          <li><span id="spanUl"><strong>Dates:</strong></span> <strong>February 8, 2025 / February 10, 2025</strong></li>
+          <li><span id="spanUl"><strong>Time:</strong></span> <strong>11:00 AM / 8:00 PM</strong></li>
+        </ul>
+     </div>
+    </section>
+    
+    <section id="Ticket">
+      <h2>Ticket</h2>
+      <div class="section-pregulation">
+        <p> To access the event, it is necessary to purchase a ticket. 
+            There are <strong>three types of tickets</strong>, each with unique benefits. 
+            Below you will find the details and prices for each ticket.
+        </p>
+      </div>
+    </section>
+    
+    <div class="videocontainer">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YgbUWIYkQE8" title="YouTube video player" 
+           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+           picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+    
+    <section class="containerCards">
+      <div class="Card1">
+        <h2>Standard Ticket</h2>
+        <h3>15$</h3>
+        <p>Entrance pass</p>
+        <p>Snow Miku gadgets</p>
+        <p>Limited Poster</p>
+        <div class="buttonContainer">
+          <div class="message" hidden></div>
+          <button class="buttonTicket">Buy Now</button>
+        </div>
+      </div>
+  
+
+      <div class="Card2">
+        <h2>Snow Ticket</h2>
+        <h3>25$</h3>
+        <p>Priority access</p>
+        <p>Snow Miku gadgets</p>
+        <p>Exclusive T-shirt</p>
+        <div class="buttonContainer">
+          <div class="message" hidden></div>
+          <button class="buttonTicket">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="Card3">
+        <h2>Vip Snow Ticket</h2>
+        <h3>70$</h3>
+        <p>Priority access</p>
+        <p>All benefits</p>
+        <p>Snow Miku 2025 Figure</p>
+        <div class="buttonContainer">
+          <div class="message" hidden></div>
+          <button class="buttonTicket">Buy Now</button>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      
+     <div class="footerBox">
+      <p id="footerText">Copyright © 2025 KabiKabi01 - Snow Miku Event | This project is for educational
+                          purposes only and is not affiliated with Hatsune Miku.
+      </p>
+     </div>
+
+    </footer>
+
+    <script src="SnowMiku2025.js"></script>
+  </body>
+</html>
